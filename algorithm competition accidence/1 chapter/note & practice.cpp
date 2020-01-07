@@ -64,3 +64,76 @@ int main()
  }
 
 
+//1-5(discount)
+//a clothes priced 95 yuan,if consuming add to 300,can have 15% discount,input the amount
+//of clothes you bought,output the paid value(unit:yuan) keep two decimal fraction
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main()
+ {
+ const int PRICE=95;
+ int amount;
+ double pay;
+ cin>>amount;
+ if(amount*95 >= 300)
+ {
+ pay=amount*95*0.85;
+ }else
+ {
+ pay=amount*95;
+ }
+ cout<<setprecision(2)<<std::fixed<<pay<<"yuan";
+ }
+
+//错误
+//1-6 triangle
+//input the length of three sides of triangle(positive integer),judge if it can be
+//right angled triangle ,if can output "yes",if can't,output "no",if can not be a triangle,
+//output "not a triangle"
+#include <iostream>
+using namespace std;
+int main()
+ {
+ int a,b,c;
+ cin>>a>>b>>c;
+ if((a+b>c||a+c>b||b+c>a)&&(a*a+b*b=c*c||a*a+c*c=b*b||c*c+b*b=a*a))
+ {
+ cout<<"yes";
+ }else
+ {
+ cout<<"no";
+ }
+ }
+ else
+ {
+ cout<<"not a triangle";
+ }
+ return 0;
+ }
+
+//1-7
+//input the year,judge if the leap year,if is,output "yes",if not output "no"
+#include <iostream>
+using namespace std;
+int main()
+ {
+ int year;
+ cin>>year;
+ if(year%400==0 || (year%100!=0 && year%4==0))
+    cout<<"yes";
+ else
+    cout<<"no";
+ return 0;
+ }
+
+
+
+
+****************************************************************************************************************************************
+//the maximum and the minimun of int
+
+
+
+
+
