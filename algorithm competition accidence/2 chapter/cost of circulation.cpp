@@ -72,9 +72,37 @@ int main()
  printf("Time used  = %.2f/n",(double)clock()/CLOCKS_PER_SEC);
  return 0;
  }
+
+#include <iostream>
+#include <ctime>
+using namespace std;
+int main()
+ {
+ clock_t start,end;
+ start = clock();
+ const int MOD =1000000;
+ int n,S=0;
+ cin>>n;
+ for(int i = 0;i <= n;i++)
+ {
+ int factorial = 1;
+ for(int j = 1;j <= i; j++)
+ {
+ factorial = (factorial * j % MOD);
+ S = (S+factorial) % MOD;
+ }
+
+ }
+ cout<<S<<endl;
+ end = clock();
+ cout<<(double)(end-start)/(CLOCKS_PER_SEC)<<endl;
+ return 0;
+ }
+
 //上面的程序再次使用到了常量定义，好处是可以在程序中使用代码MOD而不是常数1000000，改善了
 //程序的可读性也方便修改
 //这个程序的真正特别之处在于计时函数clock的使用。程序前调用此函数，便可获得整个程序的运行
 //时间。这个时间除以常数CLOCKS_PER_SEC得到的值以整数秒为单位
+
 
 
