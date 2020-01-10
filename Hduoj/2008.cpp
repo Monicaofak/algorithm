@@ -25,7 +25,7 @@ int main()
 					d++;
 				}
 			}
-			cout << b << " " << c << " " << d << endl;
+		cout << b << " " << c << " " << d << endl;
 		}
 	}
     return 0;
