@@ -15,7 +15,7 @@ int main()
     cout<<"B"<<endl;
  if(90 <=t&&t <=100)
     cout<<"A"<<endl;
- if(t<0||t>100)
+ if(t<0||t> 100)
     cout<<"Score is error!"<<endl;
  }
  return 0;
