@@ -12,7 +12,7 @@ int main()
 			cin>>a[i];
 			if(a[i]%2==1)
 			s*=a[i];
-		}
+	}
 		cout<<s<<endl;
 	}
  return 0;
