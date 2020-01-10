@@ -15,5 +15,6 @@ int main()
  cout<<setprecision(2);
  cout<<t<<endl;
  }
+ 
  return 0;
  }
