@@ -12,7 +12,7 @@ int main()
             if(i%2==0) x+=i*i;
             else y+=i*i*i;
         }
-        cout<<x<<" "<<y<<endl;     //输出
+       cout<<x<<" "<<y<<endl;     //输出
     }
     return 0;
 }
