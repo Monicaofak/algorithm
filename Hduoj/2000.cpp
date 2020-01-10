@@ -13,9 +13,9 @@ int main()
     for(i=j+1;i<3;i++)
  if(a[j]>a[i])
  {
- t=a[i];
- a[i]=a[j];
- a[j]=t;
+ t=a[j];
+ a[j]=a[i];
+ a[i]=t;
   }
   cout<<a[0]<<" "<<a[1]<<" "<<a[2]<<endl;
  }
