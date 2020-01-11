@@ -32,7 +32,7 @@ int main()
 	double s(0.0);
 
 	while (cin >> m) {
-		while (m--) {
+	while (m--) {
 			cin >> n;
 			cout << setprecision(2) << fixed << sum(n, s) << endl;
 		}
