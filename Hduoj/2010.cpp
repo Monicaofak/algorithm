@@ -43,7 +43,7 @@ int main()
       cout << "no";
     cout << endl;
   }
-  return 0;
+ return 0;
 }
 
 
