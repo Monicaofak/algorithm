@@ -18,7 +18,7 @@ int main()
         }
        cout<<x<<" "<<y<<endl;     //输出
     }
-    return 0;
+   return 0;
 }
 
 
