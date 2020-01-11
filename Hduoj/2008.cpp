@@ -19,7 +19,7 @@ int main()
 			{
 				cin >> a[n];
 				if (a[n] < 0) {
-					b++;
+				b++;
 				}
 				else if (a[n] == 0) {
 					c++;
