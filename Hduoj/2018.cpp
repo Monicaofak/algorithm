@@ -13,6 +13,7 @@
 //2
 //4
 //6
+//斐波那契数列
 #include<iostream>
 using namespace std;
 int fibonacci1(int n)
