@@ -31,7 +31,7 @@ int main()
     int n;
     while(cin>>n&&n)
     {
-        cout<<fibonacci1(n)<<endl;
+       cout<<fibonacci1(n)<<endl;
     }
     return 0;
 }
